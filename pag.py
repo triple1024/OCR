@@ -1,19 +1,19 @@
 import pyautogui as pag
 
-# current_position = pag.position()
-# print(current_position )
+current_position = pag.position()
+print(current_position )
 
 # スクリーンショットを取得する座標とサイズ
-x = 934
-y = 507
-width = 110  # NAME_W
-height = 24
+# x = 934
+# y = 507
+# width = 110  # NAME_W
+# height = 24
 
-# スクリーンショットを取得
-screenshot_img = pag.screenshot(region=(x, y, width, height))
+# # スクリーンショットを取得
+# screenshot_img = pag.screenshot(region=(x, y, width, height))
 
-# スクリーンショットを保存
-screenshot_img.save('screenshot3.png')
+# # スクリーンショットを保存
+# screenshot_img.save('screenshot3.png')
 
 
 # x = 944
@@ -43,3 +43,6 @@ screenshot_img.save('screenshot3.png')
 
 # print(f"start_x: {start_x}, start_y: {start_y}, NAME_W: {NAME_W}, h: {h}")
 
+
+# スプレッドシート
+# Point(x=36, y=320)
